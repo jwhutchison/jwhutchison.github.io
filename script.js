@@ -1,3 +1,3 @@
 // This file does nothing
-console.log('>>> external script loaded');
-window.__scriptLoaded = true;
+console.info('>>> external script loaded <<<');
+globalThis.__scriptLoaded = true;
